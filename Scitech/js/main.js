@@ -5,10 +5,10 @@
 // $(document).foundation();
 function dateClockSetup() {
     //TODO RETIFICAR DATAS
-    let competitionDate = "10" + "/" + "31" + "/" + "2019" + ' 14:00:00';
+    let competitionDate = "11" + "/" + "12" + "/" + "2020" + ' 13:30:00';
     let enrollementDate = "10" + "/" + "9" + "/" + "2019" + ' 00:00:00';
     let enrollbtn = document.getElementById("enrollbtn");
-    let enrolmentDateToCompare = new Date(2019, 9, 9, 0, 0, 0, 0);
+    let enrolmentDateToCompare = new Date(2019, 11, 12, 0, 0, 0, 0);
     let nowDate = new Date(Date.now() - (new Date()).getTimezoneOffset());
     let dateToReturn;
 
@@ -16,7 +16,7 @@ function dateClockSetup() {
         enrollbtn.style.visibility = "hidden";
         dateToReturn = enrollementDate;
     } else {
-        enrollbtn.setAttribute("href", "https://forms.gle/P6evgeMpqXvKPKt17");
+        enrollbtn.setAttribute("href", "https://docs.google.com/forms/d/e/1FAIpQLSeJwtwTx8JQIXLkWT6aUZDc3aDj6p5bYApAoEgRMXf_8PKpZQ/viewform?usp=sf_link");
         dateToReturn = competitionDate;
     }
 

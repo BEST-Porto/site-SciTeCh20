@@ -3955,6 +3955,7 @@ textarea {
         transition: 0.3s;
         transition-delay: 0s;
         position: relative;
+        text-align:center;
         -webkit-transform: translateY(20px);
         transform: translateY(20px);
         opacity: 0;
@@ -3983,6 +3984,7 @@ textarea {
     .section.active .anim .anim-2 {
         -webkit-transform: none;
         transform: none;
+        text-align: center;
         transition-delay: 0.5s;
         opacity: 1;
     }
@@ -5404,4 +5406,21 @@ ul.countdown li p {
         padding-top: 0.8rem;
         vertical-align: top;
     }
+}
+
+
+@media (min-width: 601px) {
+    .description-text {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    .description-text {
+        font-size: 1.3rem;
+    }
+}
+
+.description-text {
+    font-size: 1.4rem;
 }
