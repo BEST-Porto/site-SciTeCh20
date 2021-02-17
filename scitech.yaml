@@ -1,0 +1,19 @@
+name: scitech
+region: ams
+static_sites:
+- environment_slug: html
+  github:
+    branch: deployment
+    deploy_on_push: true
+    repo: BEST-Porto/site-SciTeCh20
+  name: scitech
+  routes:
+  - path: /scitech20
+- environment_slug: html
+  github:
+    branch: master
+    deploy_on_push: true
+    repo: BEST-Porto/site-SciTeCh20
+  name: site-sci-te-ch-20
+  routes:
+  - path: /site-sci-te-ch-20
