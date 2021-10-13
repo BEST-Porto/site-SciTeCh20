@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Tw Cen MT Condensed Regular';
+    scr: url('./fonts/Tw-Cen-MT-Condensed-Font.ttf');
+}
+
 .text-black {
     color: #1d1d1d !important;
 }
@@ -69,6 +74,7 @@ body {
     top: 45%;
     left: 20%;
     opacity: 0.35;
+    font-family: 'Tw Cen MT Condensed Regular';
 }
 
 ul,
