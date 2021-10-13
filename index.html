@@ -19,8 +19,8 @@
     <meta property="og:title" content="SciteCh '21">
     <meta property="og:description" content="Competição de tecnologia organizada pelo BEST Porto">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="http://scitech.bestporto.org/img/Logomark_original.png">
-    <meta property="og:image:secure_url" content="http://scitech.bestporto.org/img/Logomark_original.png">
+    <meta property="og:image" content="http://scitech.bestporto.org/img/logo_og.jpg">
+    <meta property="og:image:secure_url" content="http://scitech.bestporto.org/img/logo_og.jpg">
     <meta property="og:image:type" content="image/jpg">
     <meta property="og:image:width" content="1775">
     <meta property="og:image:height" content="571">
@@ -53,7 +53,9 @@
     <script src="./js/vendor/modernizr-2.7.1.min.js"></script>
 </head>
 
-<body id="menu" class="body-page mc-old-browser fp-viewing-home fp-responsive">
+<body id="menu" class="body-page mc-old-browser fp-viewing-home fp-responsive container-bg">
+
+    <!-- <div class="container-bg-text">#ExpandYourUniverse</div> -->
     <!--[if lt IE 8]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -81,16 +83,22 @@
 
         <nav class="navbar-sidebar">
             <ul class="navbar-nav" id="qmenu">
-               <!--  <li class="nav-item" data-menuanchor="home">
+                <li class="nav-item" data-menuanchor="home">
                     <a href="#home">
                         <i class="icon ion-ios-home-outline"></i>
                         <span class="txt">Homepage</span>
                     </a>
-                </li> -->
+                </li>
                 <li class="nav-item" data-menuanchor="about">
                     <a href="#about">
                         <i class="icon ion-ios-information-outline"></i>
                         <span class="txt">Sobre</span>
+                    </a>
+                </li>
+                <li class="nav-item" data-menuanchor="prizes">
+                    <a href="#prizes">
+                        <i class="icon ion-ios-information-outline"></i>
+                        <span class="txt">Prémios</span>
                     </a>
                 </li>
                 <li class="nav-item" data-menuanchor="schedule">
@@ -102,13 +110,13 @@
                 <li class="nav-item" data-menuanchor="pastEditions">
                     <a href="#pastEditions">
                         <i class="icon ion-ios-calendar-outline"></i>
-                        <span class="txt">SciTeCh '20</span>
+                        <span class="txt">Edições anteriores</span>
                     </a>
                 </li>
                 <li class="nav-item" data-menuanchor="regulations">
                     <a href="#regulations">
                         <i class="icon ion-ios-compose-outline"></i>
-                        <span class="txt">Regulamentos</span>
+                        <span class="txt">Regulamento</span>
                     </a>
                 </li>
                 <!--<li class="nav-item" data-menuanchor="partners">
@@ -133,6 +141,12 @@
                     <a href="#team">
                         <i class="icon ion-ios-people-outline"></i>
                         <span class="txt">Equipa Organizadora</span>
+                    </a>
+                </li>
+                <li class="nav-item" data-menuanchor="partners">
+                    <a href="#partners">
+                        <i class="icon ion-ios-people-outline"></i>
+                        <span class="txt">Parcerias</span>
                     </a>
                 </li>
             </ul>
@@ -168,16 +182,21 @@
     <main class="page-main page-fullpage main-anim" id="mainpage">
 
         <!-- Begin of home section -->
-        <!-- <div class="section section-home fullscreen-md fp-auto-height-responsive main-home" data-section="home"> -->
+        <div class="section section-home fullscreen-md fp-auto-height-responsive main-home" data-section="home">
             <!-- Begin of section wrapper -->
-            <!-- <div class="section-wrapper center-vh dir-col">
-                
+            <div class="section-wrapper center-vh dir-col">
+                <!-- content -->
+                <div class="section-content anim">
+                    <div class="text-center">
+                        <h2 class="display-1 home-title anim-1">19 de novembro a 6 de dezembro <br> FCUP & FEUP</h2>
+                    </div>
+                    
                     <div class="btns-action anim-4 pt-3">
-                        <a class="btn btn-outline-white btn-round" href="#" id="enrollbtn">
+                        <a class="btn btn-outline-white btn-round" href="https://forms.gle/yE9d2BFQ6x1ADr6V9" target="_blank" id="enrollbtn">
                             <span class="txt">Inscreve-te aqui!</span>
                         </a>
                     </div>
-                </div> -->
+                </div>
 
                 <!-- Arrows scroll down/up -->
                 <footer class="section-footer scrolldown">
@@ -214,8 +233,8 @@
                                     <i class="fa fa-wrench fa-3x"></i>
                                 </div>
                                 <div class="media-body">
-                                    <h4>Prototype Design</h4>
-                                    <p>Durante a competição, a equipa deverá elaborar um relatório e planear um protótipo recorrendo a um software CAD para resolver o desafio proposto no início.
+                                    <h4>Team Design</h4>
+                                    <p>Criação de um protótipo ou estrutura funcional utilizando materiais simples e de baixo custo.
                                     </p>
                                 </div>
                             </div>
@@ -265,6 +284,31 @@
             <!-- End of section wrapper -->
         </div>
         <!-- End of description section -->
+        
+        <!-- Begin of pricelist section -->
+        <div class="section fp-auto-height-responsive" data-section="prizes">
+            <!-- Begin of section wrapper -->
+            <div class="section-wrapper center-vh dir-col anim">
+                <!-- title -->
+                <div class="text-center">
+                    <h2 class="display-title display-5">PRÉMIOS</h2>
+                </div>
+                <!-- content -->
+                <div class="section-content anim text-justify fullwidth mt-3">
+                    <h5 class="anim-2">Haverá um conjunto de prémios para os vencedores, assim como Certificados de Participação para todos os participantes.
+ 
+                        <br>
+                        Todos os estudantes que tiverem competido nas três modalidades: Case Study, Team Design e Competição de Debates; e participado nas formações, receberão 1,5 ECTs.
+                    </h5>
+
+                </div>
+                    <!-- content -->
+    
+            </div>
+                <!-- End of section wrapper -->
+        </div>
+            <!-- End of pricelist section -->
+                        
 
         <!-- Begin of description section -->
         <div class="section fp-auto-height-responsive" data-section="schedule">
@@ -275,8 +319,14 @@
                     <h2 class="display-title display-5">Programa</h2>
                 </div>
 
+                 <!-- content -->
+                 <div class="section-content anim text-justify fullwidth mt-3">
+                    <h5 class="anim-2">Podes consultar o nosso o calendário do evento <a href="https://docs.google.com/spreadsheets/d/1Vn2dXAqlALJxcTCm-hxWkovJML7bdmrb/edit?usp=sharing&ouid=104654358459124427651&rtpof=true&sd=true">aqui</a>. Em breve serão dadas mais informações sobre o mesmo.</h5>
+
+                </div>
+
                 <!-- content -->
-                <div class="container">
+                <!-- <div class="container">
                     <div class="schedule-warp anim">
                         <div class="day-one mb-4 text-vermelhovi">Dia </div>
 
@@ -313,7 +363,7 @@
                                 <span class="schedule-tag">Time</span>
                                 <span class="schedule-start">Lorem Ipsum</span>
                             </div>
-                        </div>
+                        </div> -->
 
                     
                         <!--<div class="day-one mb-4">
@@ -324,7 +374,7 @@
                                 <li>Sessão de Abertura e Encerramento, onde te iremos apresentar os moldes da competição, dar a conhecer um pouco do BEST Porto e dos envolvidos no evento, e proceder à entrega de prémios.</li>
                             </ul>
                         </div>-->
-                    </div>
+                    <!-- </div> -->
                
                     </div>
                 </div>
@@ -333,13 +383,26 @@
         </div>
         <!-- End of description section -->
 
+
         <!-- Begin of list two side 1 section -->
+      
+
+
+
+
+
+
+
+
+
+
         <div class="section section-twoside fp-auto-height-responsive" data-section="pastEditions">
             <!-- Begin of section wrapper -->
             <div class="section-wrapper twoside center-vh dir-col">
-                <!-- title -->
+               
+              
                 <div class="text-center">
-                    <h2 class="display-title display-5">SciTeCh '20</h2>
+                    <h2 class="display-title display-5">SciTeCh '19</h2>
                 </div>
 
                 <!-- text or illustration order are manipulated via Bootstrap order-md-1, order-md-2 class -->
@@ -413,10 +476,10 @@
                         <div class="section-content anim">
                             <!-- title and description -->
                             <div class="title-desc text-justify">
-                                <p class="description-text"><strong>41 Participantes</strong></p>
-                                <p class="description-text"><strong>12 Equipas</strong></p>
-                                <p class="description-text"><strong>Team Design: </strong>Modelação em Fusion360 de um Rover Lunar</p>
-                                <p class="description-text"><strong>Case Study: </strong>Hotel Subaquático</p>
+                                <p class="description-text"><strong>90 participantes</strong></p>
+                                <p class="description-text"><strong>22 equipas</strong></p>
+                                <p class="description-text"><strong>Team Design:</strong> Protótipo de um lançador de discos;</p>
+                                <p class="description-text"><strong>Case Study:</strong> Projeto de uma cidade protótipo para 15 mil habitantes no Deserto do Gohari.</p>
                             </div>
                         </div>
                     </div>
@@ -424,6 +487,8 @@
 
                 </div>
                 <!-- end of item -->
+
+
             </div>
             <!-- End of section wrapper -->
         </div>
@@ -435,7 +500,7 @@
             <div class="section-wrapper center-vh dir-col anim">
                 <!-- title -->
                 <div class="text-center">
-                    <h2 class="display-title display-5">Regulamentos</h2>
+                    <h2 class="display-title display-5">Regulamento</h2>
                 </div>
                 <!-- content -->
                 <div class="section-content anim text-justify fullwidth mt-3">
@@ -443,7 +508,7 @@
                         Podes encontrar o documento aqui:</h5>
 
                     <div class="btns-action anim-4 text-center mt-3 pt-5">
-                        <a class="btn btn-outline-white btn-round" href="https://docs.google.com/document/d/1YzJB1sCqbMtLBwEy9VyQovW36zZ5HdZDDLcTQ0A4LP0/edit?usp=sharing" target="_blank">
+                        <a class="btn btn-outline-white btn-round" href="https://docs.google.com/document/d/1qLlGJWoTxPKZymGcMJtS5GlwAYW-w8e6/edit#" target="_blank">
                             <span class="txt">Regulamento</span>
                         </a>
                     </div>
@@ -454,67 +519,6 @@
             <!-- End of section wrapper -->
         </div>
         <!-- End of pricelist section -->
-
-        <!-- Begin of slider section
-         <div class="section fp-auto-height-responsive" data-section="partners">
-            
-            <div class="section-wrapper center-vh dir-col">
-
-                <div class="text-center">
-                    <h2 class="display-title display-5">Parcerias</h2>
-                </div>
-
-                <div class="item row justify-content-between pt-3 text-center">
-                    <div class="col-sm-3">
-                        <div class="section-content anim translateUp">
-                            <div class="card border-0">
-                                <img class="card-img-top" src="img/logo_mini.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <p class="card-text font-weight-bold">Empresa X</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="section-content anim">
-                            <div class="card border-0">
-                                <img class="card-img-top" src="img/logo_mini.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <p class="card-text font-weight-bold">Empresa X</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="section-content anim">
-                            <div class="card border-0">
-                                <img class="card-img-top" src="img/logo_mini.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <p class="card-text font-weight-bold">Empresa X</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="section-content anim translateUp">
-                            <div class="card border-0">
-                                <img class="card-img-top" src="img/logo_mini.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <p class="card-text font-weight-bold">Empresa X</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-            
-
-
-
-        </div>
-         End of section wrapper -->
-        <!-- End of slider section -->
 
         <!-- Begin of list two side 1 section -->
         <div class="section fp-auto-height-responsive" data-section="faq">
@@ -541,11 +545,11 @@
                                 </h5>
                             </div>
                         </div>
-                         <!-- Question 9 -->
+                         <!-- Question 2 -->
                          <div class="panel panel-default py-2">
                             <div class="anim">
                                 <h5 class="panel-title">
-                                    <a href="#" data-toggle="modal" data-target="#question9" class="ing">Devo juntar-me com a minha equipa para realizar a competição?</a>
+                                    <a href="#" data-toggle="modal" data-target="#question2" class="ing">Qual o preço da inscrição?</a>
                                 </h5>
                             </div>
                         </div>
@@ -555,7 +559,8 @@
                         <div class="panel panel-default py-2">
                             <div class="anim">
                                 <h5 class="panel-title">
-                                    <a href="#" data-toggle="modal" data-target="#question4" class="ing">Qual é a duração do desafio?
+                                    <a href="#" data-toggle="modal" data-target="#question4" class="ing">Tenho que participar em todas as modalidades ou posso participar em apenas numa?
+
                                         </a>
                                 </h5>
                             </div>
@@ -587,7 +592,36 @@
                                 </h5>
                             </div>
                         </div>
-                        
+                        <!-- Question 3 -->
+                        <div class="panel panel-default py-2">
+                            <div class="anim">
+                                <h5 class="panel-title">
+                                    <a href="#" data-toggle="modal" data-target="#question3" class="ing">Quantos membros deve ter cada equipa?
+
+                                        </a>
+                                </h5>
+                            </div>
+                        </div>
+                        <!-- Question 9 -->
+                        <div class="panel panel-default py-2">
+                            <div class="anim">
+                                <h5 class="panel-title">
+                                    <a href="#" data-toggle="modal" data-target="#question9" class="ing">Quais são as condições para receber a creditação?
+
+                                        </a>
+                                </h5>
+                            </div>
+                        </div>
+                        <!-- Question 10 -->
+                        <div class="panel panel-default py-2">
+                            <div class="anim">
+                                <h5 class="panel-title">
+                                    <a href="#" data-toggle="modal" data-target="#question10" class="ing">Se eu tiver de faltar às aulas para participar no SciTeCh, tenho justificação?
+
+                                        </a>
+                                </h5>
+                            </div>
+                        </div>
                        
                 </div>
             </div>
@@ -607,49 +641,49 @@
                     <!-- begin of item -->
                     <div class="item row justify-content-center">
                         <!-- img-frame-normal demo -->
-                        <div class="col-9 col-sm-4 col-md-3 center-vh">
-
+                        <div class="col-4 col-sm-4 col-md-3 center-vh">
                             <div class="section-content reduced anim">
                                 <div class="images text-center">
                                     <div class="img-avatar-alpha">
-                                        <div class="img-1 shadow" href="#" data-toggle="modal" data-target="#sofia">
-                                            <img class="img" src="img/items/CT_(5).jpg" alt="Image">
+                                        <div class="img-1 shadow" href="#" data-toggle="modal" data-target="#joao">
+                                            <img class="img" src="img/items/CT_5.png" alt="Image">
                                         </div>
+                                        
                                         <div class="legend text-center pos-abs">
                                             <h5><b>Sofia Osório</b></h5>
-                                            <p class="">Responsável pelo Evento</p>
+                                           <p class="">Responsável pelo Evento</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <!-- img-frame-normal demo -->
-                        <div class="col-9 col-sm-4 col-md-3 center-vh">
+                        <div class="col-4 col-sm-4 col-md-3 center-vh">
                             <div class="section-content reduced anim">
                                 <div class="images text-center">
                                     <div class="img-avatar-alpha">
-                                        <div class="img-1 shadow" href="#" data-toggle="modal" data-target="#eva">
-                                            <img class="img" src="img/items/CT_ (4).jpg" alt="Image">
+                                        <div class="img-1 shadow" href="#" data-toggle="modal" data-target="#joao">
+                                            <img class="img" src="img/items/CT_6.png" alt="Image">
                                         </div>
+                                           
                                         <div class="legend text-center pos-abs">
                                             <h5><b>Eva Rodrigues</b></h5>
-                                            <p class="">Secretária do Evento</p>
-
+                                           <p class="">Secretária</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        
                         <!-- img-frame-normal demo -->
-                        <div class="col-9 col-sm-4 col-md-3 center-vh">
+                        <div class="col-4 col-sm-4 col-md-3 center-vh">
                             <div class="section-content reduced anim">
                                 <div class="images text-center">
                                     <div class="img-avatar-alpha">
                                         <div class="img-1 shadow" href="#" data-toggle="modal" data-target="#mafalda">
-                                            <img class="img" src="img/items/CT_ (4).jpg" alt="Image">
+                                            <img class="img" src="img/items/CT_1.png" alt="Image">
                                         </div>
                                         <div class="legend text-center pos-abs">
-                                            
                                             <h5><b>Mafalda Silva</b></h5>
                                             <p class="">Responsável de Relações Empresariais</p>
                                         </div>
@@ -658,36 +692,19 @@
                             </div>
                         </div>
                     </div>
-                    <br>
+                    
                     <div class="item row justify-content-center">
                         <!-- img-frame-normal demo -->
-                        <div class="col-9 col-sm-4 col-md-3 center-vh">
-
+                        <div class="col-4 col-sm-4 col-md-3 center-vh">
                             <div class="section-content reduced anim">
                                 <div class="images text-center">
                                     <div class="img-avatar-alpha">
-                                        <div class="img-1 shadow" href="#" data-toggle="modal" data-target="#andre">
-                                            <img class="img" src="img/items/CT_ (3).jpg" alt="Image">
+                                        <div class="img-1 shadow" href="#" data-toggle="modal" data-target="#joao">
+                                            <img class="img" src="img/items/CT_2.png" alt="Image">
                                         </div>
+                                        
                                         <div class="legend text-center pos-abs">
-                                            
-                                            <h5><b>André Assunção</b></h5>
-                                            <p class="">Responsável de Tópico</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- img-frame-normal demo -->
-                        <div class="col-9 col-sm-4 col-md-3 center-vh">
-                            <div class="section-content reduced anim">
-                                <div class="images text-center">
-                                    <div class="img-avatar-alpha">
-                                        <div class="img-1 shadow" href="#" data-toggle="modal" data-target="#gabriel">
-                                            <img class="img" src="img/items/CT_ (3).jpg" alt="Image">
-                                        </div>
-                                        <div class="legend text-center pos-abs">
-                                            <h5><b>Gabriel Machado Jr</b></h5>
+                                            <h5><b> Gabriel Machado Jr</b></h5>
                                             <p class="">Responsável de Marketing</p>
 
                                         </div>
@@ -695,18 +712,37 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- img-frame-normal demo -->
-                        <div class="col-9 col-sm-4 col-md-3 center-vh">
+                        
+                        <div class="col-4 col-sm-4 col-md-3 center-vh">
                             <div class="section-content reduced anim">
                                 <div class="images text-center">
                                     <div class="img-avatar-alpha">
-                                        <div class="img-1 shadow" href="#" data-toggle="modal" data-target="#carolina">
-                                            <img class="img" src="img/items/CT_ (1).jpg" alt="Image">
+                                        <div class="img-1 shadow" href="#" data-toggle="modal" data-target="#joao">
+                                            <img class="img" src="img/items/CT_3.png" alt="Image">
                                         </div>
+                                        
                                         <div class="legend text-center pos-abs">
-                                            
+                                            <h5><b>André Assunção</b></h5>
+                                            <p class="">Responsável de Tópico</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                   
+                        <div class="col-4 col-sm-4 col-md-3 center-vh">
+                            <div class="section-content reduced anim">
+                                <div class="images text-center">
+                                    <div class="img-avatar-alpha">
+                                        <div class="img-1 shadow" href="#" data-toggle="modal" data-target="#joao">
+                                            <img class="img" src="img/items/CT_4.png" alt="Image">
+                                        </div>
+                                        
+                                        <div class="legend text-center pos-abs">
                                             <h5><b>Carolina Sousa</b></h5>
                                             <p class="">Responsável de Tópico</p>
+
                                         </div>
                                     </div>
                                 </div>
@@ -720,6 +756,77 @@
             </div>
         </div>
         <!-- End of contact section -->
+                <!-- Begin of slider section -->
+         <div class="section fp-auto-height-responsive" data-section="partners">
+            
+            <div class="section-wrapper center-vh dir-col">
+
+                <div class="text-center">
+                    <h2 class="display-title display-5">Parcerias</h2>
+                    <br>
+                </div>
+
+                <div class="item row justify-content-between pt-3 text-center">
+                    <div class="col-sm-3">
+                        <div class="section-content anim translateUp">
+                            <div class="card border-0">
+                                <img class="card-img-top" src="img/Empresas/Confienergy.png" alt="Card image cap">
+                                <!-- <div class="card-body">
+                                    <p class="card-text font-weight-bold">Confienergy</p>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="section-content anim">
+                            <div class="card border-0">
+                                <img class="card-img-top" src="img/Empresas/FOCA.png" alt="Card image cap">
+                                <!-- <div class="card-body">
+                                    <p class="card-text font-weight-bold">FOCA</p>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="section-content anim">
+                            <div class="card border-0">
+                                <img class="card-img-top" src="img/Empresas/SdDUP.png" alt="Card image cap">
+                                <!-- <div class="card-body">
+                                    <p class="card-text font-weight-bold">Empresa X</p>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-around pt-3 text-center">
+                    <div class="col-sm-4">
+                        <div class="section-content anim translateUp">
+                            <div class="card border-0">
+                                <img class="card-img-top" src="img/Empresas/FEUP.png" alt="Card image cap">
+                                <!-- <div class="card-body">
+                                    <p class="card-text font-weight-bold">Empresa X</p>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="section-content anim translateUp">
+                            <div class="card border-0">
+                                <img class="card-img-top" src="img/Empresas/fcup.png" alt="Card image cap">
+                                <!-- <div class="card-body">
+                                    <p class="card-text font-weight-bold">Empresa X</p>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+        <!-- End of section wrapper -->
+        <!-- End of slider section -->
+
     </main>
     <!-- END OF page main content -->
 
@@ -728,7 +835,7 @@
         <!-- Left content -->
         <div class="footer-left">
             <p>A COMPETITION BY
-                <a href="http://bestporto.org" target="_blank">
+                <a href="https://bestporto.org" target="_blank">
                     <span class="marked">BEST PORTO</span>
                 </a>
             </p>
@@ -768,33 +875,33 @@
     <!-- END OF site footer -->
     <div id="siteModals">
         <div id="contactModals">
-            <div class="modal fade" id="sofia" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal fade" id="joao" tabindex="-1" role="dialog" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
                     <div class="modal-content">
                         <div class="modal-body">
-                            <p>&#x1F4E7&nbsp;&nbsp;&nbsp;&nbsp; sofia.osorio@bestporto.org</p>
+                            <p>&#x1F4E7&nbsp;&nbsp;&nbsp;&nbsp; clara.moreira@bestporto.org</p>
                             <!--<p>&#x260E&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +351936491214</p>-->
                         </div>
                         <button type="button" class="btn-sm btn-primary" data-dismiss="modal">Got it!</button>
                     </div>
                 </div>
             </div>
-            <div class="modal fade" id="eva" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal fade" id="carlos" tabindex="-1" role="dialog" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
                     <div class="modal-content">
                         <div class="modal-body">
-                            <p>&#x1F4E7&nbsp;&nbsp;&nbsp;&nbsp; eva.rodrigues@bestporto.org</p>
+                            <p>&#x1F4E7&nbsp;&nbsp;&nbsp;&nbsp; matilde.nabais@bestporto.org</p>
                             <!-- <p>&#x260E&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +351965453805</p>-->
                         </div>
                         <button type="button" class="btn-sm btn-primary" data-dismiss="modal">Got it!</button>
                     </div>
                 </div>
             </div>
-            <div class="modal fade" id="mafalda" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal fade" id="joana" tabindex="-1" role="dialog" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
                     <div class="modal-content">
                         <div class="modal-body">
-                            <p>&#x1F4E7&nbsp;&nbsp;&nbsp;&nbsp; mafalda.silva@bestporto.org</p>
+                            <p>&#x1F4E7&nbsp;&nbsp;&nbsp;&nbsp; angela.fernandes@bestporto.org</p>
                             <!--<p>&#x260E&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +351910000000</p>-->
                         </div>
                         <button type="button" class="btn-sm btn-primary" data-dismiss="modal">Got it!</button>
@@ -802,11 +909,11 @@
                 </div>
             </div>
           
-            <div class="modal fade" id="andre" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal fade" id="vanessa" tabindex="-1" role="dialog" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
                     <div class="modal-content">
                         <div class="modal-body">
-                            <p>&#x1F4E7&nbsp;&nbsp;&nbsp;&nbsp; andre.assuncao@bestporto.org</p>
+                            <p>&#x1F4E7&nbsp;&nbsp;&nbsp;&nbsp; joao.carvalhal@bestporto.org</p>
                           <!--  <p>&#x260E&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +351932359119</p>-->
                         </div>
                         <button type="button" class="btn-sm btn-primary" data-dismiss="modal">Got it!</button>
@@ -814,30 +921,6 @@
                 </div>
             </div>
         </div>
-        <div class="modal fade" id="gabriel" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <p>&#x1F4E7&nbsp;&nbsp;&nbsp;&nbsp; gabriel.machadojr@bestporto.org</p>
-                        <!--<p>&#x260E&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +351910000000</p>-->
-                    </div>
-                    <button type="button" class="btn-sm btn-primary" data-dismiss="modal">Got it!</button>
-                </div>
-            </div>
-        </div>
-      
-        <div class="modal fade" id="carolina" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <p>&#x1F4E7&nbsp;&nbsp;&nbsp;&nbsp; carolina.sousa@bestporto.org</p>
-                      <!--  <p>&#x260E&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +351932359119</p>-->
-                    </div>
-                    <button type="button" class="btn-sm btn-primary" data-dismiss="modal">Got it!</button>
-                </div>
-            </div>
-        </div>
-    </div>
         <div id="FAQModals">
             <!--FAQ Modals -->
             <!--Question 1-->
@@ -851,7 +934,8 @@
                       </button>
                         </div>
                         <div class="modal-body">
-                            Podes-te inscrever até dia 10 de Novembro, através do formulário de inscrição que encontras no início desta página. Para isso precisas de ter a equipa completa.
+                            Podes-te inscrever até dia 25 de novembro, através do formulário de inscrição que encontras no início desta página.
+
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn-sm btn-primary" data-dismiss="modal">Got it!</button>
@@ -870,7 +954,30 @@
                           </button>
                         </div>
                         <div class="modal-body">
-                            A inscrição é gratuita, no entanto tens de fazer o depósito de uma caução de 5€, por participante, para garantires a tua inscrição. Esta será devolvida após a competição.
+                            A inscrição é gratuita, no entanto, tens de fazer o depósito de uma caução de 5€, por participante, para garantires a tua inscrição. Esta será devolvida após a competição.
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn-sm btn-primary" data-dismiss="modal">Got it!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Question 10-->
+            <div class="modal fade" id="question10" tabindex="-1" role="dialog" aria-labelledby="question2Title" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="question2Title">Se eu tiver de faltar às aulas para participar no SciTeCh, tenho justificação? 10
+                            </h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                            Se tiveres de faltar às aulas para participar no evento, o BEST Porto irá justificar essa falta. Apenas terás de pedir essa justificação até ao fim da competição ao Responsável dos Participantes.
+
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn-sm btn-primary" data-dismiss="modal">Got it!</button>
@@ -884,13 +991,15 @@
                 <div class="modal-dialog modal-dialog-centered" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="question4Title">Qual é a duração do desafio?</h5>
+                            <h5 class="modal-title" id="question4Title">Tenho que participar em todas as modalidades ou posso participar em apenas numa?
+                            </h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                   </button>
                         </div>
                         <div class="modal-body">
-                            O desafio terá a duração de 3 horas.
+                            Podes participar nas modalidades que quiseres, no entanto, se pretenderes inscrever-te em apenas uma ou duas modalidades terás de esperar por uma futura fase de inscrições, esta mais limitada em termos de vagas. 
+
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn-sm btn-primary" data-dismiss="modal">Got it!</button>
@@ -910,6 +1019,7 @@
                         </div>
                         <div class="modal-body">
                             Sim, após a competição ser-te-á enviado um Certificado de participação se a tua equipa concluir a prova.
+
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn-sm btn-primary" data-dismiss="modal">Got it!</button>
@@ -947,7 +1057,8 @@
                                                   </button>
                         </div>
                         <div class="modal-body">
-                            Não, as provas são desenhadas para que todos os participantes tenham oportunidade de resolver com sucesso os desafios.
+                            Não, as provas são desenhadas para que todos os participantes tenham oportunidade de resolver com sucesso os desafios. Para além disso, terás a oportunidade de participar em formações que te ajudarão nas provas.
+
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn-sm btn-primary" data-dismiss="modal">Got it!</button>
@@ -955,18 +1066,19 @@
                     </div>
                 </div>
             </div>
-            <!--Question 2-->
+            <!--Question 3-->
             <div class="modal fade" id="question3" tabindex="-1" role="dialog" aria-labelledby="question2Title" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="question2Title">Para a modalidade de Prototype Design, peciso de conhecimento prévio da ferramenta CAD a utilizar?</h5>
+                            <h5 class="modal-title" id="question2Title">Quantos membros deve ter cada equipa?
+                            </h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                           </button>
                         </div>
                         <div class="modal-body">
-                           Não, não é necessário qualquer conhecimento prévio da ferramenta, irá ser dada uma formação uns dias antes da competição.
+                            Cada equipa é constituída por 4 membros. No entanto, podes inscrever-te individualmente ou em grupos de 2 ou 3. Mais tarde a organização irá completar a equipa.
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn-sm btn-primary" data-dismiss="modal">Got it!</button>
@@ -985,7 +1097,12 @@
                                                       </button>
                         </div>
                         <div class="modal-body">
-                            A competição será totalmente online.
+                            A Competição de Debates, a competição de Team Design, assim como as sessões de abertura, encerramento e Networking, serão realizadas presencialmente na Faculdade de Ciências da Universidade do Porto (FCUP).
+                            <br>
+                            As formações de Team Design serão conduzidas na Faculdade de Engenharia da Universidade do Porto (FEUP).
+                            <br>
+                            Outras formações e a competição de Case Study terão via online.
+
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn-sm btn-primary" data-dismiss="modal">Got it!</button>
@@ -998,13 +1115,15 @@
                 <div class="modal-dialog modal-dialog-centered" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="question9Title">Devo juntar-me com a minha equipa para realizar a competição?</h5>
+                            <h5 class="modal-title" id="question9Title">Quais são as condições para receber a creditação?
+                            </h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                         <span aria-hidden="true">&times;</span>
                                                       </button>
                         </div>
                         <div class="modal-body">
-                            Não, a competição está organizada para cada participante comunicar com a respetiva equipa através de videoconferência. A segurança de todos é a nossa maior prioridade!
+                            Para receber os 1,5 ECTs terás de participar nas 3 modalidades da competição (Team Design, Case Study e Competição de Debates), nas formações dadas, Sessão de Networking e Sessões de Abertura e Encerramento. 
+
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn-sm btn-primary" data-dismiss="modal">Got it!</button>
@@ -1030,7 +1149,8 @@
     <!-- Javascript main files -->
     <script src="./js/main.js"></script>
 
-
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 
