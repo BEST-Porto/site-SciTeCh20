@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Tw Cen MT Condensed Regular';
-    scr: url('./fonts/Tw-Cen-MT-Condensed-Font.ttf');
+    src: url('./fonts/Tw-Cen-MT-Condensed-Font.ttf');
 }
 
 .text-black {
