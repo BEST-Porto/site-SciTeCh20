@@ -31,10 +31,6 @@
     color: #1d1d1d !important;
 }
 
-.firstTitle {
-    font-size: 3.5rem;
-}
-
 h6 {
     font-size: 1rem;
 }
@@ -4105,7 +4101,7 @@ textarea {
 
 @media (min-width: 768px) {
     .section-home .home-title {
-        font-size: 4.5rem;
+        font-size: 3.5rem;
     }
 }
 
