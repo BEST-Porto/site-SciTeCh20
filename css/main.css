@@ -31,7 +31,13 @@
     color: #1d1d1d !important;
 }
 
+.firstTitle {
+    font-size: 3.5rem;
+}
 
+h6 {
+    font-size: 1rem;
+}
 /* 0. Base style */
 
 
