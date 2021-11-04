@@ -16,7 +16,7 @@ function dateClockSetup() {
         enrollbtn.style.visibility = "hidden";
         dateToReturn = enrollementDate;
     } else {
-        enrollbtn.setAttribute("href", "https://forms.gle/yE9d2BFQ6x1ADr6V9");
+        enrollbtn.setAttribute("href", "https://forms.gle/WnP4RC4EJGK667wK8");
         dateToReturn = competitionDate;
     }
 
