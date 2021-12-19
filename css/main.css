@@ -5452,3 +5452,7 @@ ul.countdown li p {
 .description-text {
     font-size: 1.4rem;
 }
+/*-- Partners --*/
+.smallerLogos {
+    width: 10%;
+}
