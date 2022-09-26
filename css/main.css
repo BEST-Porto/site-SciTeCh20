@@ -2191,6 +2191,10 @@ textarea {
     line-height: 1;
 }
 
+.fa-wrench {
+    padding-right: 0.5em;
+}
+
 .media .img img {
     width: 4.5rem;
     height: 4.5rem;
