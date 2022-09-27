@@ -5398,9 +5398,15 @@ ul.countdown li p {
 /* ipad and tablet */
 
 /* phone */
-@media (max-width: 800px) {
-    #bg_img {
-        display: none;
+
+@viewport {
+    width: device-width;
+    zoom:1;
+ }
+
+@media (max-width: 1200px) {
+    .cover-bg {
+        display: none ;
     }
 }
 
