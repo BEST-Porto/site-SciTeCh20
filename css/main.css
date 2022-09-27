@@ -5397,8 +5397,12 @@ ul.countdown li p {
 
 /* ipad and tablet */
 
-
 /* phone */
+@media (max-width: 800px) {
+    .cover-bg {
+        display: none;
+    }
+}
 
 @media (max-width: 1200px) {
     #qmenu {
