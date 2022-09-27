@@ -5399,7 +5399,7 @@ ul.countdown li p {
 
 /* phone */
 @media (max-width: 800px) {
-    .cover-bg {
+    .bg_img {
         display: none;
     }
 }
