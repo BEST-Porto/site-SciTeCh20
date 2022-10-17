@@ -5481,3 +5481,7 @@ ul.countdown li p {
 .previousEdition {
     right: 6em;
 }
+
+#delta {
+    width: 5em;
+}
